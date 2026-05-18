@@ -7,7 +7,7 @@ Code and notebooks are licensed under the Apache License 2.0.
 Data files in `data/` are licensed under CC BY 4.0. Please provide attribution for any uses of the data provided.
 
 # Contents
-5 notebooks covering all of the analysis described are available in `notebooks/`:
+5 notebooks covering all of the analyses described are available in `notebooks/`:
 1. `dpaint-cmod-vs-non-cmod.ipynb` includes the unvariate statistical and ML analyses comparing c-mods and non-c-mods identified from the d.paint screen
 2. `cdcode-cmod-vs-non-c-mod.ipynb` inclues the same univariate statistical and ML analyses, but instead comparing CD-Code c-mods to d.paint non-c-mods
 3. `correlation_num_condensates.ipynb` includes, for d.paint c-mods, analyses correlating the number of condensates modulated with chemical descriptor properties
@@ -18,3 +18,5 @@ Data files in `data/` are licensed under CC BY 4.0. Please provide attribution f
 Input data required are available in `data/`, in a set of .csv and .xslx files.
 
 The python packages required to run the notebooks are described in requirements.txt
+
+The notebooks can be run independently of eachother or in any order: each notebook loads the input files needed and carries out all pre-processing required. 
